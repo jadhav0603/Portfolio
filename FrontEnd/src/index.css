@@ -113,9 +113,12 @@ li>a {
 }
 
 .profile_photo > a > button{
-  background: linear-gradient(rgb(5, 5, 5),rgb(195, 0, 255));
+  width: 18vw;
+  font-size: 1vw;
+  background: linear-gradient(rgb(5, 5, 5),#ac4cfa);
   color: white;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: 1px;
   padding: 10px 30px;
   border: none;
   border-radius: 20px;
