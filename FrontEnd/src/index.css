@@ -104,6 +104,25 @@ li>a {
   filter: drop-shadow(0 0 10em #61dafbaa);
 }
 
+.profile_photo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile_photo > a > button{
+  background: linear-gradient(rgb(5, 5, 5),rgb(195, 0, 255));
+  color: white;
+  font-weight: 700;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  border: 1px solid rgb(73, 72, 72);
+}
+
+
 .profile:hover {
   filter: drop-shadow(0 0 12.5em #3dc2e4aa)
 }
@@ -250,6 +269,7 @@ li>a {
 
 .card>img {
   width: 100%;
+  height:15vw;
   border-radius: 5px;
 }
 

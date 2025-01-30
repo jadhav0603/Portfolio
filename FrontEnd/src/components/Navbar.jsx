@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="portfolioLogo">
-        <img src="./Profile Logo/pngegg.png" className="logo" />
+        <img src="./Profile Logo/pngegg.webp" className="logo" />
       </div>
 
       <div className="navbarLists">

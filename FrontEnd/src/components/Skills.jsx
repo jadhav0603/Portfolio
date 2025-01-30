@@ -12,11 +12,11 @@ const Skills = ()=>{
               <h1>Frontend</h1>
             </div>
             <div className="skills_list">
-              <li><img src="./Skill Logo/HTML.png" />HTML</li>
-              <li><img src="./Skill Logo/CSS.png" /> CSS</li>
-              <li><img src="./Skill Logo/JS.png" /> JavaScript</li>
-              <li><img src="./Skill Logo/REACT.png" /> React JS</li>
-              <li><img src="./Skill Logo/TAILWIND.png" /> Tailwind CSS</li>
+              <li><img src="./Skill Logo/HTML.webp" />HTML</li>
+              <li><img src="./Skill Logo/CSS.webp" /> CSS</li>
+              <li><img src="./Skill Logo/JS.webp" /> JavaScript</li>
+              <li><img src="./Skill Logo/REACT.webp" /> React JS</li>
+              <li><img src="./Skill Logo/TAILWIND.webp" /> Tailwind CSS</li>
             </div>
           </div>
 
@@ -27,13 +27,13 @@ const Skills = ()=>{
             <div className="skills_list">
               <li>
                 <img
-                  src="./Skill Logo/NODE.png"
+                  src="./Skill Logo/NODE.webp"
                   style={{backgroundColor: "white"}}
                 />
                 Node Js
               </li>
-              <li><img src="./Skill Logo/EXPRESS.png" /> Express Js</li>
-              <li><img src="./Skill Logo/MONGO.png" /> MongoDB</li>
+              <li><img src="./Skill Logo/EXPRESS.webp" /> Express Js</li>
+              <li><img src="./Skill Logo/MONGO.webp" /> MongoDB</li>
             </div>
           </div>
 
@@ -44,19 +44,19 @@ const Skills = ()=>{
             <div className="skills_list">
               <li>
                 <img
-                  src="./Skill Logo/github-logo.png"
+                  src="./Skill Logo/github-logo.webp"
                   style={{backgroundColor: "white", borderRadius: "50%"}}
                 />
                 Git
               </li>
-              <li><img src="./Skill Logo/vs-code.png" /> VS Code</li>
-              <li><img src="./Skill Logo/postman.png" /> Postman</li>
-              <li><img src="./Skill Logo/photoshop.png" /> Adobe Photoshop</li>
+              <li><img src="./Skill Logo/vs-code.webp" /> VS Code</li>
+              <li><img src="./Skill Logo/postman.webp" /> Postman</li>
+              <li><img src="./Skill Logo/photoshop.webp" /> Adobe Photoshop</li>
             </div>
           </div>
 
           <img
-            src="./Skill Logo/git contribution.png"
+            src="./Skill Logo/git contribution.webp"
             style={{
               borderRadius: "20px",
               width: "70vw",

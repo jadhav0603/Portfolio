@@ -1,12 +1,12 @@
 import { useEffect, useRef } from "react"
 import Typed from "typed.js"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"; // Solid icon for Envelope
-import { 
-    faGithub, 
-    faLinkedinIn, 
-    faInstagram, 
-    faFacebookF 
+import { faEnvelope,faDownload } from "@fortawesome/free-solid-svg-icons"; // Solid icon for Envelope
+import {
+    faGithub,
+    faLinkedinIn,
+    faInstagram,
+    faFacebookF
 } from "@fortawesome/free-brands-svg-icons";
 
 const Profile = () => {
@@ -31,8 +31,14 @@ const Profile = () => {
         <div id="about" className="main summary">
 
             <div className="left">
-                <div className="profile_photo"></div>
-                <img src="./Profile Logo/IMG_06571.jpg" className="profile" />
+                <div className="profile_photo">
+                    <img src="./Profile Logo/IMG_06571.webp" className="profile" />
+                    <a href="./Resume_vijay_jadhav.pdf" download="Resume_vijay_jadhav.pdf.pdf">
+                        <button>
+                            CHECK RESUME <FontAwesomeIcon icon={faDownload} />
+                        </button>
+                    </a>
+                </div>
             </div>
 
 

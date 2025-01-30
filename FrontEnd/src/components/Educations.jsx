@@ -32,7 +32,7 @@ const Education = ()=>{
 
             <div className="university">
               <div className="img">
-                <img src="./education/logo.jpg" alt="clg logo" />
+                <img src="./education/logo.webp" alt="clg logo" />
                 <div style={{margin: "0vw 2vw"}}>
                   <h2>Prof. Ramkrishna More ACS College</h2>
                   <p><b>Savitribai Phule university, Pune.</b></p>
@@ -48,7 +48,7 @@ const Education = ()=>{
 
             <div className="university">
               <div className="img">
-                <img src="./education/logo.webp" alt="12th clg logo" />
+                <img src="./education/RJSPM_logo.webp" alt="12th clg logo" />
                 <div style={{margin: "0vw 2vw"}}>
                   <h2>RJSPM College</h2>
                   <p><b>Higher Secondary Education (ISC).</b></p>

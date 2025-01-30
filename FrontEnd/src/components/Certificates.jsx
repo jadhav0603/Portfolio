@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react"
-import img1 from "/Achievments/Vijay - Internship Participation Certificate_page-0001.jpg"
-import img2 from "/Achievments/Innovation 2015 2_page-0001.jpg"
-import img3 from "/Achievments/Tally ERP 9_page-0001.jpg"
-import img4 from "/Achievments/State level history exam_page-0001.jpg"
-import img5 from "/Achievments/Lion’s Club_page-0001.jpg"
-import img6 from "/Achievments/Kho-kho Sport_page-0001.jpg"
+import img1 from "/Achievments/Vijay - Internship Participation Certificate_page-0001.webp"
+import img2 from "/Achievments/Innovation 2015 2_page-0001.webp"
+import img3 from "/Achievments/Tally ERP 9_page-0001.webp"
+import img4 from "/Achievments/State level history exam_page-0001.webp"
+import img5 from "/Achievments/Lion’s Club_page-0001.webp"
+import img6 from "/Achievments/Kho-kho Sport_page-0001.webp"
 
 const Certificates = ()=>{
     const [first, setFirst] = useState(1);
