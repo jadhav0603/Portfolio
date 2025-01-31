@@ -33,7 +33,7 @@ const Profile = () => {
             <div className="left">
                 <div className="profile_photo">
                     <img src="./Profile Logo/IMG_06571.webp" className="profile" />
-                    <a href="./Resume_vijay_jadhav.pdf" download="Resume_vijay_jadhav.pdf.pdf">
+                    <a href="./VijayJadhav-Resume.pdf" download="VijayJadhav-Resume.pdf">
                         <button>
                             CHECK RESUME <FontAwesomeIcon icon={faDownload} />
                         </button>
